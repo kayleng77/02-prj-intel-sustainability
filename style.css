@@ -159,4 +159,32 @@ header p {
 
 }
 
+@media (max-width: 480px) {
+  section{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 15px;
+  }
+
+  
+  header h1 {
+    font-size: 30px;
+    padding: 0 10px;
+  }
+
+  header p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .logo {
+    width: 120px;
+    height: auto;
+    padding: 20px;
+    
+  } 
+}
+
 
