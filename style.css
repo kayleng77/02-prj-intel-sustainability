@@ -13,13 +13,19 @@ body {
 
 section {
   display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   gap: 20px;
-  padding: 40px
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 .card {
   position: relative;
-  width: 220px; 
+  width: 250px;
+  flex: 0 0 250px;
   background: #fff;
   border: 5px solid #fff;
 }
@@ -27,6 +33,7 @@ section {
 .card img {
   width: 100%;
   display: block;
+  padding: 10px;
 }
 
 header {
@@ -53,6 +60,7 @@ header h1{
   font-size: 50px;
   font-family: 'intel-one-display-medium', Helvetica, Arial, sans-serif;
   color: #fff;
+  padding: 0 40px;
 }
 
 header p {
@@ -80,4 +88,3 @@ header p {
   font-family: 'intel-one-body-text', Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
-
